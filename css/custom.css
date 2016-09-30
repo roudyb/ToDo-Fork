@@ -1,0 +1,119 @@
+.background-colour {
+
+	background-color: #283d50;
+}
+
+.centreImg {
+
+	margin: auto 0;
+}
+
+.pad40 {
+
+	padding: 40px 0px 40px 0px;
+}
+
+.iconTxt {
+
+	color: #a0b4c8;
+	font-size: 24pt;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.getYou {
+
+	font-size: 18pt;
+	color: #a0b4c8;
+	font-family: 'Satisfy', cursive;
+}
+
+.smaller { 
+
+	font-size: 90%;
+	color: #62707d;
+}
+
+.footMenuSpace {
+    /*line-height: 1em;*/
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 35px 0px 35px;
+}
+
+.txtLtBlu {
+
+	color: #a0b4c8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.txtDkBlu { 
+
+	color: #62707d;
+}
+
+.fieldLabels {
+
+	color: #a0b4c8;
+	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.colPad {
+
+	padding: 40px 90px;
+}
+
+.roundCorners {
+
+	border: 2px solid #a0b4c8;
+    padding: 5px 20px;
+    background: #dddddd;
+    width: 205px;
+    border-radius: 10px;
+}
+
+.bigButtTxt {
+
+	font-size: 13pt;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.bigButt {
+
+	background-color: #e66f1c;
+	border: 0px;
+	margin: 20px 0px;
+}
+
+.smallButtTxt {
+
+	font-size: 9pt;
+	padding: 8px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.smallButt {
+
+	background-color: #899a2b;
+	border: 0px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: -40px;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+

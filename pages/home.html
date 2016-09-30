@@ -1,0 +1,43 @@
+
+    <!--
+        * Author: Roudy Courser
+        * Assignment: WE41 Angular JS Assessment, Digital Skills Academy
+        * Student ID: D15128554
+        * Date : 2016/13/09
+        * Ref:  https://www.youtube.com/watch?v=FSOiVprDdj0
+                https://tests4geeks.com/tutorials/single-page-application-using-angularjs-tutorial/
+    -->
+    
+<div class="text-center">
+	<!-- <h1>Home Page</h1>
+	
+	<p>{{ message }}</p> -->
+
+	<!-- Alert the view of the controller and this replaces data-ng-init -->
+	<div style="padding: 0px 85px;" data-ng-controller="mainController">
+		<!-- Functionality comes from $scope.addTodo's function -->
+
+	<div style="width: 300px; text-align: left;">
+		<p class="fieldLabels">Task</p>
+		<form name="frm" data-ng-submit="addTodo()">
+			<input type="text" class="roundCorners" name="newTodo" data-ng-model="newTodo" required />
+			<button data-ng-disabled="todo.$invalid" data-ng-click='send();' class="bigButtTxt bigButt">Fetch Task</button>
+			<!--ng-click="clicked()"-->
+		</form>
+
+		<!-- Functionality comes from $scope.clearCompleted's function -->
+	
+		<!-- Inside the controller show the ToDo's -->
+		<ul>
+			<li class="txtLtBlu" data-ng-repeat="todo in todos">
+				<input type="checkbox" data-ng-model="todo.done" />
+				<span data-ng-class="{'done':todo.done}">{{todo.title}}</span>
+			</li>
+		</ul>
+		<br>
+		<br>
+		<button data-ng-click="clearCompleted()" class="smallButtTxt smallButt">Chew Up Completed Tasks</button>
+	</div>
+	</div>
+
+</div>
